@@ -1,0 +1,119 @@
+*{
+    font-family: 'roboto';
+}
+
+.prata-font {
+    font-family: 'prata';
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73)),
+    url('/assets/img/hero.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+a.nav-link:hover, a.active {
+    border-bottom: 2px solid white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.web-title{
+    font-size: 64px;
+}
+
+.border-box {
+  box-sizing: content-box;
+}
+
+.m-n1 {
+    margin-top: -20px;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 0;
+}
+
+a.scroll span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+a.scroll span::before {
+  position: absolute;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  box-sizing: border-box;
+}
+
+.slick-next, .slick-prev, .slick-dots, .slick-dotted {
+	filter: invert(10%);
+}
+
+footer, .copyright {
+    background-color: black;
+}
+
+.copyright {
+    height: 40px;
+}
+
+.copyright span {
+    font-size: 14px;
+}
+
+.author {
+    color: #FF5959;
+}
+
+.post-img{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes sdb {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
