@@ -16,6 +16,20 @@
     width: 100%;
 }
 
+.feature {
+    position: relative;
+    background: url(/assets/img/feature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
 .overlay{
     position: absolute;
     height: 100vh;
@@ -32,7 +46,7 @@ a.nav-link:hover, a.active {
 }
 
 .web-title{
-    font-size: 64px;
+    font-size: 2.5rem;
 }
 
 .border-box {
@@ -101,6 +115,10 @@ footer, .copyright {
     background-size: cover;
 }
 
+.text-popular-post{
+    font-size: 14px;
+}
+
 @keyframes sdb {
   0% {
     transform: translate(0, 0);
@@ -116,4 +134,23 @@ footer, .copyright {
   100% {
     opacity: 0;
   }
+}
+
+@media (min-width: 576px) { 
+   
+ }
+
+ @media (max-width: 720px) { 
+   .slick-next {
+        right: -10px !important;
+    }
+   .slick-prev {
+        left: -10px !important;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .web-title {
+        font-size: 4rem;
+    }
 }
