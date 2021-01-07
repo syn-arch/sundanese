@@ -150,6 +150,19 @@ footer, .copyright {
     margin-top: -30px;
 }
 
+.list-gallery {
+    border-bottom: 1px solid gray;
+
+}
+
+.active-gallery {
+    border-bottom: 4px solid gray;
+}
+
+.grid-item { 
+    /* width: 400px;  */
+}
+
 @keyframes sdb {
   0% {
     transform: translate(0, 0);

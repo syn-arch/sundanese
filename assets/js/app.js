@@ -51,5 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
         ]
     });
 
+    // mansory.js
+    $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item'
+    });
+
 
 });
