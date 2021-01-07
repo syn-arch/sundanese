@@ -134,6 +134,22 @@ footer, .copyright {
     background: rgba(0, 0, 0, 0.6);
 }
 
+.align-justify {
+    text-align: justify;
+}
+
+.sticky-offset {
+    top: 70px !important;
+}
+
+.author-comment{
+    margin-bottom: 0 !important;
+}
+
+.date-comment{
+    margin-top: -30px;
+}
+
 @keyframes sdb {
   0% {
     transform: translate(0, 0);
