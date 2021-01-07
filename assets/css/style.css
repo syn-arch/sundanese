@@ -119,6 +119,21 @@ footer, .copyright {
     font-size: 14px;
 }
 
+.hero-section {
+    height: 30vh;
+    width: 100%;
+    background: url(/assets/img/feature.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay-section {
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+}
+
 @keyframes sdb {
   0% {
     transform: translate(0, 0);
@@ -136,16 +151,16 @@ footer, .copyright {
   }
 }
 
-@media (min-width: 576px) { 
-   
- }
-
- @media (max-width: 720px) { 
+ @media (max-width: 768px) { 
    .slick-next {
         right: -10px !important;
     }
    .slick-prev {
         left: -10px !important;
+    }
+
+    #sidebar .search{
+        margin-top: 1rem !important;
     }
  }
 
