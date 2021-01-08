@@ -159,9 +159,8 @@ footer, .copyright {
     border-bottom: 4px solid gray;
 }
 
-.grid-item { 
-    /* width: 400px;  */
-}
+.mansory-sizer,
+.mansory-item { width: 30%; }
 
 @keyframes sdb {
   0% {
@@ -191,7 +190,17 @@ footer, .copyright {
     #sidebar .search{
         margin-top: 1rem !important;
     }
+
+    .mansory-sizer,
+    .mansory-item { width: 40%; }
+
  }
+
+  @media (max-width: 576px) { 
+    .mansory-sizer,
+    .mansory-item { width: 100%; }
+
+}
 
 @media (min-width: 768px) { 
     .web-title {

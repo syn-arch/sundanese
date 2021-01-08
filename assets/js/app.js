@@ -52,9 +52,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // mansory.js
-    $('.grid').masonry({
+    $('.mansory').masonry({
         // options
-        itemSelector: '.grid-item'
+        itemSelector: '.mansory-item',
+        columnWidth: 100,
+        gutter: 20,
+        columnWidth: '.mansory-sizer',
+        percentPosition: true
     });
 
 
