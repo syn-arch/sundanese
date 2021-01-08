@@ -227,6 +227,10 @@ footer, .copyright {
     .mansory-sizer,
     .mansory-item { width: 100%; }
 
+    .link-sosmed-contact{
+        display: block;
+    }
+
 }
 
 @media (min-width: 768px) { 
