@@ -146,10 +146,6 @@ footer, .copyright {
     margin-bottom: 0 !important;
 }
 
-.date-comment{
-    margin-top: -30px;
-}
-
 .list-gallery {
     border-bottom: 1px solid gray;
 
@@ -183,8 +179,21 @@ footer, .copyright {
    .slick-next {
         right: -10px !important;
     }
+
    .slick-prev {
         left: -10px !important;
+    }
+
+    .sticky-offset a {
+        display: inline-block !important;
+    }
+
+    #content .share-icon-wrapper {
+        margin-top: 1rem !important;
+    }
+
+    #detail-post .detail-post-content {
+        margin-top: 1rem !important;
     }
 
     #sidebar .search{
