@@ -130,7 +130,7 @@ footer, .copyright {
 .overlay-section {
     height: 30vh;
     width: 100%;
-    position: absolute;
+    /* position: absolute;` */
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -157,6 +157,11 @@ footer, .copyright {
 
 .mansory-sizer,
 .mansory-item { width: 30%; }
+
+.img-about {
+    margin-top: -10%;
+    z-index: 999;
+}
 
 @keyframes sdb {
   0% {
