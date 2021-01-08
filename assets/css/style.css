@@ -190,6 +190,7 @@ footer, .copyright {
 
     #content .share-icon-wrapper {
         margin-top: 1rem !important;
+        padding-bottom: 0 !important;
     }
 
     #detail-post .detail-post-content {
@@ -202,6 +203,18 @@ footer, .copyright {
 
     .mansory-sizer,
     .mansory-item { width: 40%; }
+
+    #content-comment .author-comment {
+        display: block !important;
+    }
+
+    #content-comment .date-comment {
+        float: left !important;
+    }
+
+    .user-comment{
+        clear: both;
+    }
 
  }
 
